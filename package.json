@@ -2,7 +2,9 @@
   "name": "cohort",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anhnguyen9a7.github.io/cohort",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-day-picker": "^6.1.0",
@@ -23,5 +25,10 @@
   "devDependencies": {
     "@storybook/react": "^3.2.3",
     "@storybook/storybook-deployer": "^2.0.0"
+  },
+  "storybook-deployer": {
+    "gitUsername": "anhnguyen9a7",
+    "gitEmail": "anhnguyen9a7@gmail.com",
+    "commitMessage": "Deploy Storybook"
   }
 }
